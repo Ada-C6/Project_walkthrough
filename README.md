@@ -314,6 +314,10 @@ Now write the further two test cases and edit the *fizzbuzz* method to solve the
 
 Notice that our solution is not terrifically efficient (technical term).  It potentially compares the number to 3 & 5 multiple times, so there is a more efficient method.  Attempt to improve on the solution, and then re-run the tests to make sure it still satisfies the specs.  
 
+## Finished Solution
+You can see a finished solution below:
+*  [FizzBuzz Finished Project](https://github.com/CheezItMan/FizzBuzz)
+
 ## Resources
 *  [Gitignore Sample](https://github.com/github/gitignore/blob/master/Ruby.gitignore)
 *  [Intro to Rake](https://learn.co/lessons/intro-to-rake)

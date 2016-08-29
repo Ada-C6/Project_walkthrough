@@ -225,7 +225,7 @@ Minitest Specs add a bunch of methods like in the chart below letting you write 
 |  must\_equal 	|   wont\_equal	|   expect(@balance).must\_equal 1000
 |  must\_include 	|   wont\_include	|   expect(@names).must\_include 'Ada Lovelace'
 |  must\_match 	|   wont\_match	|   expect(@names.first).must\_match 'Ada Lovelace'
-|  must\_raise 	|   				|   expect( proc { Account.new() }.must\_raise ArgumentException
+|  must\_raise 	|   				|   expect( proc { Account.new() }).must\_raise ArgumentException
 
 
 #### Creating Specs for FizzBuzz

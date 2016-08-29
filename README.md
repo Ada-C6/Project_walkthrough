@@ -203,7 +203,7 @@ require_relative 'leap_year'
 
 describe "Testing Leap Year" do
   it "Testing Leap Year on regular years divisible by 4" do
-      leap_year(1996).must_equal(true)
+      expect(leap_year(1996)).must_equal(true)
   end
 end
 ```

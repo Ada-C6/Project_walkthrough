@@ -151,7 +151,7 @@ We now have a project environment set up and ready to go!
 
 In this example we will build a FizzBuzz Project which is a method which solves the following problem.
 
-*"Write a method that returns the numbers from 1 to 100. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”.  Everything is returned as a String"*
+*"Write a method that takes a number as a parameter and for most numbers it returns the same number. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”.  Everything is returned as a String"*
 
 
 ### Building Test Cases
@@ -176,6 +176,8 @@ end
 This works fairly well, but Minitest has another format which does the same thing, is more readable for non-Ruby programmers and it's in a similar format to other testing frameworks like **RSpec**.
 
 The new format is called spec-style testing.  
+
+An example is below
 
 ```Ruby
 require 'minitest'

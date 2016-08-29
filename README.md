@@ -172,6 +172,19 @@ class YearTest < Minitest::Test
   end
 end
 ```
+So for fizzbuzz it would look like this:
+
+```Ruby
+class FizzBuzz_test < Minitest::Test
+  def testfizzbuzz-3
+    assert fizzbuzz(3), 'Fizz'
+  end
+
+  def fizzbuzz-5
+    assert fizzbuzz(5), 'Buzz'
+  end
+end
+```
 
 This works fairly well, but Minitest has another format which does the same thing, is more readable for non-Ruby programmers and it's in a similar format to other testing frameworks like **RSpec**.
 

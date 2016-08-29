@@ -151,7 +151,7 @@ We now have a project environment set up and ready to go!
 
 In this example we will build a FizzBuzz Project which is a method which solves the following problem.
 
-*"Write a method that takes a number as a parameter and for most numbers it returns the same number. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”.  Everything is returned as a String"*
+*"Write a method that takes a number as a parameter and for most numbers it returns the same number as a String. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”.  Everything is returned as a String"*
 
 
 ### Building Test Cases

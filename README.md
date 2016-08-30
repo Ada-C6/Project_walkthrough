@@ -151,7 +151,7 @@ We now have a project environment set up and ready to go!
 
 In this example we will build a FizzBuzz Project which is a method which solves the following problem.
 
-*"Write a method that takes a number as a parameter and for most numbers it returns the same number. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”.  Everything is returned as a String"*
+*"Write a method that takes a number as a parameter and for most numbers it returns the same number as a String. But for multiples of three return “Fizz” instead of the number and for the multiples of five return “Buzz”. For numbers which are multiples of both three and five return “FizzBuzz”.  Everything is returned as a String"*
 
 
 ### Building Test Cases
@@ -169,6 +169,19 @@ class YearTest < Minitest::Test
   def test_non_leap_year
     skip
     refute leap_year?(1997), 'No, 1997 is not a leap year'
+  end
+end
+```
+So for fizzbuzz it would look like this:
+
+```Ruby
+class FizzBuzz_test < Minitest::Test
+  def testfizzbuzz-3
+    assert fizzbuzz(3), 'Fizz'
+  end
+
+  def fizzbuzz-5
+    assert fizzbuzz(5), 'Buzz'
   end
 end
 ```
@@ -190,7 +203,7 @@ require_relative 'leap_year'
 
 describe "Testing Leap Year" do
   it "Testing Leap Year on regular years divisible by 4" do
-      leap_year(1996).must_equal(true)
+      expect(leap_year(1996)).must_equal(true)
   end
 end
 ```
@@ -212,7 +225,7 @@ Minitest Specs add a bunch of methods like in the chart below letting you write 
 |  must\_equal 	|   wont\_equal	|   expect(@balance).must\_equal 1000
 |  must\_include 	|   wont\_include	|   expect(@names).must\_include 'Ada Lovelace'
 |  must\_match 	|   wont\_match	|   expect(@names.first).must\_match 'Ada Lovelace'
-|  must\_raise 	|   				|   expect( proc { Account.new() }.must\_raise ArgumentException
+|  must\_raise 	|   				|   expect( proc { Account.new() }).must\_raise ArgumentException
 
 
 #### Creating Specs for FizzBuzz

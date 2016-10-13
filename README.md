@@ -337,3 +337,4 @@ You can see a finished solution below:
 *  [Gitignore Sample](https://github.com/github/gitignore/blob/master/Ruby.gitignore)
 *  [Intro to Rake](https://learn.co/lessons/intro-to-rake)
 *  [More on Rake](http://www.stuartellis.eu/articles/rake/)
+*  [Simplecov tutorial](simplecov.md)
